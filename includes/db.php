@@ -2,7 +2,7 @@
 
 $host = "zephyr.proxy.rlwy.net";
 $username = "root";
-$password = "YOUR_RAILWAY_PASSWORD";
+$password = "smjieEUqhrlmzNVzUcVlvheACZioTrdr";
 $database = "railway";
 $port = 31539;
 
