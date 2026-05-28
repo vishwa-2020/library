@@ -1,18 +1,18 @@
 <?php
-// Database connection
-$host = 'localhost';
-$username = 'root';
-$password = '';
-$database = 'library_management';
 
-// Create connection
-$conn = new mysqli($host, $username, $password, $database);
+$host = "zephyr.proxy.rlwy.net";
+$username = "root";
+$password = "YOUR_RAILWAY_PASSWORD";
+$database = "railway";
+$port = 31539;
 
-// Check connection
+$conn = new mysqli($host, $username, $password, $database, $port);
+
 if ($conn->connect_error) {
     die("Connection failed: " . $conn->connect_error);
 }
 
-// Set charset to utf8mb4
 $conn->set_charset("utf8mb4");
+
 ?>
+
